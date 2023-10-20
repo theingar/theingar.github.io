@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Products - Shwe Sin Oo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+                <img src="pic/logotransparent-fotor-20231016204929.png">
+            </div>
+            <nav>
+                <ul id="MenuItmes">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <div class="sub-icon-1"><img src="pic/pngegg.png" width="30px" height="30px" class="hover_cursor"></div>
+            <div class="sun-icom-2"></div><img src="pic/menu.png" class="menu_icon" onclick="menutoggle()"></div>
+        </div>
+    </div>
+    </div>
+  
+   <!------ featured categories ---->
+   <div class="small_container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="pic/IMG_4308.JPG">
+            <h4>Golden watch</h4>          
+            <p>15 million MMK</p>
+        </div>
+        <div class="col-4">
+            <img src="pic/IMG_4284 2.JPG">
+            <h4>Peacock Necklace</h4>
+            <p>11 million MMK</p>
+        </div>
+        <div class="col-4">
+            <img src="pic/IMG_4304 copy.JPG">
+            <h4>Statue of Bbuddha</h4>            
+            <p>4.2 million MMK</p>
+        </div>
+        <div class="col-4">
+            <img src="pic/IMG_4307.JPG">
+            <h4>Hand Chain</h4>            
+            <p>18 million MMK</p>
+        </div>
+    </div>
+    
+   <!-----footer----->
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Whatsup</li>
+                    <li>FaceBook</li>
+                    <li>Telegram</li>
+                    <li>Line</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <br>
+                <p>Our purpose is to offer exceptional service and a memorable shooping experience.</p>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020 - Easy Tutorials</p>
+    </div>
+   </div>
+    
+<script>
+    var MenuItmes = document.getElementById("MenuItmes");
+    MenuItmes.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItmes.style.maxHeight == "0px")
+            {
+                MenuItmes.style.maxHeight = "200px";
+            }
+        else
+            {
+                MenuItmes.style.maxHeight = "0px";
+            }
+    }
+</script>
+
+
+
+
+</body>
+</html>
